@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Game of Thrones: The RPG</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/logic.js"></script>
+</head>
+
+<body>
+
+!-- Bootstrap Jumbotron Header -->
+<div class="container">
+		<!-- Jumbotron with Title -->
+		<div class="jumbotron">
+			<h1 class="text-center">Game of Thrones The RPG</h1>
+			<h4 class ="text-center">When you play the Game of Thrones, you win or you die...</h4>
+			<hr>
+
+
+  <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="assets/images/ironthrone.jpg" height="200px" width="200px" alt="ironthrone">
+    </a>
+  </div>
+  <div class="media-body">
+    <h2 class="media-heading">How To Play</h2>
+    <p>The Seven Kingdoms are at war! The royal families of Westeros now battle each other for the Iron Throne and control over the realm. Start by selecting the character you wish to play as. Next, choose which character you want to fight by clicking on the enemy you want to combat. Then keep pressing the Attack button to deal damage to your opponent until that enemy is defeated or until you are slain in battle. The game ends in victory when all of your enemies are defeated and you are the last one standing and the sole claimer of the Iron Throne. Do you have what it takes? Just remember, Winter is Coming...</p>
+  </div>
+</div>
+
+	<div class="main-section-title"></div>
+	<div id="main-game-section">
+		<div id="characters-section">
+			<div class="section-title">Select Your Character</div>
+		</div>
+
+		<div id="selected-character-section">
+			<div class="section-title">Your Character</div>
+			<div id="selected-character"></div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div id="available-to-attack-section">
+			<div class="section-title">Enemies Available To Attack</div>
+		</div>
+
+		<div class="section-title">Fight Section</div>
+		<div id="fight-section">
+			<button id="attack-button">Attack</button>
+		</div>
+
+		<div id="action">
+			<div class="character-section">
+				<div class="section-title">Defender</div>
+				<div id="defender"></div>
+			</div>
+		</div>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="gameMessage"></div>
+
+
+</body>
+
+</html>
